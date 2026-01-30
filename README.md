@@ -77,22 +77,29 @@ The project follows a structured data science workflow:
 
 ## 📁 Project Structure
 
-mall-customer-segmentation/
+customer-segmentation-mall/
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   │   └── Mall_Customers.csv
+│   └── processed/
 │
 ├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_feature_preparation.ipynb
-│ ├── 03_clustering.ipynb
-│ ├── 04_cluster_analysis.ipynb
-│ └── 05_business_recommendations.ipynb
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_preparation.ipynb
+│   ├── 03_clustering.ipynb
+│   ├── 04_cluster_analysis.ipynb
+│   └── 05_business_recommendations.ipynb
 │
 ├── src/
+│   ├── preprocessing.py
+│   ├── clustering.py
+│   └── visualization.py
+│
 ├── requirements.txt
+├── .gitignore
 └── README.md
+
 
 
 ---
