@@ -77,6 +77,7 @@ The project follows a structured data science workflow:
 
 ## 📁 Project Structure
 
+```text
 customer-segmentation-mall/
 ├── data/
 │   ├── raw/
@@ -98,6 +99,7 @@ customer-segmentation-mall/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ---
 
