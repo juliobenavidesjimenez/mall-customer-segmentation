@@ -78,7 +78,6 @@ The project follows a structured data science workflow:
 ## 📁 Project Structure
 
 customer-segmentation-mall/
-│
 ├── data/
 │   ├── raw/
 │   │   └── Mall_Customers.csv
@@ -99,8 +98,6 @@ customer-segmentation-mall/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-
 
 ---
 
